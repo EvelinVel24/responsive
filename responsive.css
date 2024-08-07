@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -30,10 +31,19 @@ div {
 
 /* Pantalla entre 501px y 750px */
 @media (min-width: 501px) and (max-width: 750px) {
-    div {
-        width: 60%;
+    body {
+        flex-direction: column;
+    }
+    .rosado {
+        width: 100%;
+    }
+    .verde, .azul, .rojo {
+        width: 33.33%;
         height: 100px;
-        margin: 15px 0;
+    }
+    .morado, .gris {
+        width: 50%;
+        height: 100px;
     }
 }
 
@@ -56,3 +66,5 @@ div {
         margin: 15px;
     }
 }
+
+
