@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Alinea los elementos al inicio del contenedor */
+    justify-content: flex-start; 
     height: 100vh;
     padding: 0;
 }
@@ -12,35 +12,35 @@ body {
 /* Color rosado delgado que cubre todo el ancho */
 .rosado { 
     background-color: pink; 
-    height: 40px; /* Grosor delgado */
-    width: 100%; /* Cubre todo el ancho */
+    height: 40px; 
+    width: 100%; 
 }
 
 /* Color verde más grueso que cubre todo el ancho */
 .verde { 
     background-color: green; 
-    height: 170px; /* Grosor medio */
-    width: 100%; /* Cubre todo el ancho */
+    height: 170px; 
+    width: 100%; 
 }
 
 /* Color azul más grueso que cubre todo el ancho */
 .azul { 
     background-color: blue; 
-    height: 240px; /* Grosor más grueso */
-    width: 100%; /* Cubre todo el ancho */
+    height: 240px; 
+    width: 100%; 
 }
 
 /* Contenedor para los colores rojo, púrpura y gris */
 .contenedor-colores {
     display: flex;
-    width: 100%; /* Cubre todo el ancho */
-    justify-content: space-between; /* Espacia los colores uniformemente */
+    width: 100%; 
+    justify-content: space-between; 
 }
 
 /* Colores rojo, púrpura y gris con el mismo ancho y grosor, debajo del azul */
 .rojo, .morado, .gris {
-    flex: 1; /* Permite que cada color ocupe el mismo ancho */
-    height: 80px; /* Grosor ajustado para rojo, púrpura y gris */
+    flex: 1; 
+    height: 80px; 
 }
 
 /* Colores específicos */
@@ -62,29 +62,29 @@ body {
         flex-direction: column;
     }
     .rosado {
-        height: 30px; /* Ajustar grosor para pantallas medianas */
+        height: 30px; 
     }
     .verde {
-        height: 130px; /* Ajustar grosor para pantallas medianas */
+        height: 130px; 
     }
     .azul {
-        height: 130px; /* Ajustar grosor para pantallas medianas */
+        height: 130px; 
     }
     .rojo, .morado, .gris {
-        height: 80px; /* Ajustar grosor para pantallas medianas */
+        height: 80px; 
     }
 }
 
 /* Pantalla sobre 751px */
 @media (min-width: 751px) {
     body {
-        flex-direction: column; /* Mantener en columna para el diseño específico */
+        flex-direction: column; 
     }
     .titulo {
         font-size: 36px;
         margin: 20px 0;
     }
     div {
-        width: 100%; /* Ajustar ancho */
+        width: 100%; 
     }
 }
